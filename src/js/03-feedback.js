@@ -25,7 +25,11 @@ function onSubmitHandle(event) {
   localStorage.removeItem(storageKey);
 }
 
+<<<<<<< Updated upstream
 function inputHandle(event) {
+=======
+function inputHandle() {
+>>>>>>> Stashed changes
   const inputData = {
     email: email.value,
     message: message.value,
